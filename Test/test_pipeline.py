@@ -12,7 +12,7 @@ be downloaded.  They validate:
   • Analytical SQL query structure
 """
 
-from __future__ import annotations
+
 
 import pytest
 import duckdb
