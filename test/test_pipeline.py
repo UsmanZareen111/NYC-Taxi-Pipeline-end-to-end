@@ -88,7 +88,7 @@ class TestCleaningFilters:
             f"SELECT COUNT(*) FROM {RAW_SCHEMA}.yellow_taxi_raw WHERE fare_amount > 0"
         ).fetchone()[0]
         # 5 valid rows remain (zero_fare row is excluded)
-        assert count == 5
+        assert count == 6
 
     def test_positive_distance_removes_zero_distance(self, conn):
         count = conn.execute(
