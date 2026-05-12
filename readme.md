@@ -41,7 +41,7 @@ nyc_taxi_pipeline/
 
 ```bash
 git clone <your-repo-url>
-cd nyc_taxi_pipeline
+cd NYC-Taxi-Pipeline-end-to-end
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -83,7 +83,7 @@ python -m src.analyze     # Stage 3 only
 ### 5. Run tests (no internet required)
 
 ```bash
-pytest tests/ -v
+pytest test/ -v
 ```
 
 ---
